@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/etc/TAS2557_A.ftcfg:system/etc/TAS2557_A.ftcfg \
     vendor/htc/ocn/proprietary/etc/TAS2557_B.ftcfg:system/etc/TAS2557_B.ftcfg \
     vendor/htc/ocn/proprietary/etc/TFA_default_vol_level.conf:system/etc/TFA_default_vol_level.conf \
-    vendor/htc/ocn/proprietary/etc/aanc_tuning_mixer.txt:system/etc/aanc_tuning_mixer.txt \
     vendor/htc/ocn/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/htc/ocn/proprietary/etc/acdbdata/Codec_cal.acdb:system/etc/acdbdata/Codec_cal.acdb \
     vendor/htc/ocn/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
@@ -65,7 +64,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
     vendor/htc/ocn/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/htc/ocn/proprietary/etc/acdbdata/adsp_avs_config.acdb:system/etc/acdbdata/adsp_avs_config.acdb \
-    vendor/htc/ocn/proprietary/etc/audio_platform_info_i2s.xml:system/etc/audio_platform_info_i2s.xml \
     vendor/htc/ocn/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
     vendor/htc/ocn/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/htc/ocn/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
@@ -314,12 +312,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
     vendor/htc/ocn/proprietary/etc/htc_audio_effects.conf:system/etc/htc_audio_effects.conf \
     vendor/htc/ocn/proprietary/etc/htc_sound_mfg.txt:system/etc/htc_sound_mfg.txt \
-    vendor/htc/ocn/proprietary/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
-    vendor/htc/ocn/proprietary/etc/mixer_paths_dtp.xml:system/etc/mixer_paths_dtp.xml \
-    vendor/htc/ocn/proprietary/etc/mixer_paths_i2s.xml:system/etc/mixer_paths_i2s.xml \
-    vendor/htc/ocn/proprietary/etc/mixer_paths_qvr.xml:system/etc/mixer_paths_qvr.xml \
-    vendor/htc/ocn/proprietary/etc/mixer_paths_skuk.xml:system/etc/mixer_paths_skuk.xml \
-    vendor/htc/ocn/proprietary/etc/mixer_paths_tasha.xml:system/etc/mixer_paths_tasha.xml \
     vendor/htc/ocn/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/htc/ocn/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/htc/ocn/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
@@ -329,12 +321,13 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/htc/ocn/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/htc/ocn/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
+    vendor/htc/ocn/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/htc/ocn/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/htc/ocn/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/htc/ocn/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/htc/ocn/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/htc/ocn/proprietary/etc/powerhint.xml:system/etc/powerhint.xml \
     vendor/htc/ocn/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/htc/ocn/proprietary/etc/sound_trigger_mixer_paths_wcd9330.xml:system/etc/sound_trigger_mixer_paths_wcd9330.xml \
     vendor/htc/ocn/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/htc/ocn/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/htc/ocn/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
@@ -345,17 +338,22 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/htc/ocn/proprietary/framework/dpm.jar:system/framework/dpm.jar \
     vendor/htc/ocn/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
+    vendor/htc/ocn/proprietary/framework/ims-common.jar:system/framework/ims-common.jar \
     vendor/htc/ocn/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/htc/ocn/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/htc/ocn/proprietary/framework/tcmiface.jar:system/framework/tcmiface.jar \
     vendor/htc/ocn/proprietary/lib/hw/camera.msm8998.so:system/lib/hw/camera.msm8998.so \
+    vendor/htc/ocn/proprietary/lib/hw/keystore.msm8998.so:system/lib/hw/keystore.msm8998.so \
     vendor/htc/ocn/proprietary/lib/hw/sensors.msm8998.so:system/lib/hw/sensors.msm8998.so \
     vendor/htc/ocn/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
     vendor/htc/ocn/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/htc/ocn/proprietary/lib/lib_htc_fp_hal_util.so:system/lib/lib_htc_fp_hal_util.so \
     vendor/htc/ocn/proprietary/lib/libawb_calibration.so:system/lib/libawb_calibration.so \
+    vendor/htc/ocn/proprietary/lib/libbthost_if.so:system/lib/libbthost_if.so \
     vendor/htc/ocn/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
     vendor/htc/ocn/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
+    vendor/htc/ocn/proprietary/lib/libhtc_facebeauty.so:system/lib/libhtc_facebeauty.so \
+    vendor/htc/ocn/proprietary/lib/libhtcsecure.so:system/lib/libhtcsecure.so \
     vendor/htc/ocn/proprietary/lib/libhubconnection.so:system/lib/libhubconnection.so \
     vendor/htc/ocn/proprietary/lib/liblog.so:system/lib/liblog.so \
     vendor/htc/ocn/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
@@ -381,6 +379,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/lib/libprojector.so:system/lib/libprojector.so \
     vendor/htc/ocn/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/htc/ocn/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/htc/ocn/proprietary/lib/sensors.hal.tof.so:system/lib/sensors.hal.tof.so \
     vendor/htc/ocn/proprietary/lib/soundfx/libadaptsoundse.so:system/lib/soundfx/libadaptsoundse.so \
     vendor/htc/ocn/proprietary/lib/soundfx/libadaptsoundsehw.so:system/lib/soundfx/libadaptsoundsehw.so \
     vendor/htc/ocn/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
@@ -396,16 +395,20 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
     vendor/htc/ocn/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
     vendor/htc/ocn/proprietary/lib/soundfx/libvolumelistener.so:system/lib/soundfx/libvolumelistener.so \
+    vendor/htc/ocn/proprietary/lib64/hw/keystore.msm8998.so:system/lib64/hw/keystore.msm8998.so \
     vendor/htc/ocn/proprietary/lib64/hw/sensors.msm8998.so:system/lib64/hw/sensors.msm8998.so \
     vendor/htc/ocn/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/htc/ocn/proprietary/lib64/lib_htc_fp_hal_util.so:system/lib64/lib_htc_fp_hal_util.so \
     vendor/htc/ocn/proprietary/lib64/libawb_calibration.so:system/lib64/libawb_calibration.so \
+    vendor/htc/ocn/proprietary/lib64/libbthost_if.so:system/lib64/libbthost_if.so \
+    vendor/htc/ocn/proprietary/lib64/libhtcsecure.so:system/lib64/libhtcsecure.so \
     vendor/htc/ocn/proprietary/lib64/libhubconnection.so:system/lib64/libhubconnection.so \
     vendor/htc/ocn/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/htc/ocn/proprietary/lib64/liblog.so:system/lib64/liblog.so \
     vendor/htc/ocn/proprietary/lib64/libpower.so:system/lib64/libpower.so \
     vendor/htc/ocn/proprietary/lib64/libprojector.so:system/lib64/libprojector.so \
     vendor/htc/ocn/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
+    vendor/htc/ocn/proprietary/lib64/sensors.hal.tof.so:system/lib64/sensors.hal.tof.so \
     vendor/htc/ocn/proprietary/lib64/soundfx/libadaptsoundse.so:system/lib64/soundfx/libadaptsoundse.so \
     vendor/htc/ocn/proprietary/lib64/soundfx/libadaptsoundsehw.so:system/lib64/soundfx/libadaptsoundsehw.so \
     vendor/htc/ocn/proprietary/lib64/soundfx/libaudiopreprocessing.so:system/lib64/soundfx/libaudiopreprocessing.so \
@@ -498,15 +501,16 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
     vendor/htc/ocn/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
     vendor/htc/ocn/proprietary/vendor/firmware/wlanmdsp.mbn:system/vendor/firmware/wlanmdsp.mbn \
+    vendor/htc/ocn/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
     vendor/htc/ocn/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/htc/ocn/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/htc/ocn/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/htc/ocn/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/htc/ocn/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/htc/ocn/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/htc/ocn/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/htc/ocn/proprietary/vendor/lib/hw/fingerprint.fpc.so:system/vendor/lib/hw/fingerprint.fpc.so \
     vendor/htc/ocn/proprietary/vendor/lib/hw/gatekeeper.msm8998.so:system/vendor/lib/hw/gatekeeper.msm8998.so \
-    vendor/htc/ocn/proprietary/vendor/lib/hw/keystore.msm8998.so:system/vendor/lib/hw/keystore.msm8998.so \
     vendor/htc/ocn/proprietary/vendor/lib/hw/sound_trigger.primary.msm8998.so:system/vendor/lib/hw/sound_trigger.primary.msm8998.so \
     vendor/htc/ocn/proprietary/vendor/lib/hw/vulkan.msm8998.so:system/vendor/lib/hw/vulkan.msm8998.so \
     vendor/htc/ocn/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
@@ -637,6 +641,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
     vendor/htc/ocn/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/htc/ocn/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
+    vendor/htc/ocn/proprietary/vendor/lib/libedge_smooth_hvx_stub.so:system/vendor/lib/libedge_smooth_hvx_stub.so \
+    vendor/htc/ocn/proprietary/vendor/lib/libedgesmooth.so:system/vendor/lib/libedgesmooth.so \
     vendor/htc/ocn/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/htc/ocn/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/htc/ocn/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
@@ -648,6 +654,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/htc/ocn/proprietary/vendor/lib/libhdcp1prov.so:system/vendor/lib/libhdcp1prov.so \
     vendor/htc/ocn/proprietary/vendor/lib/libhtc_common.so:system/vendor/lib/libhtc_common.so \
+    vendor/htc/ocn/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/htc/ocn/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/htc/ocn/proprietary/vendor/lib/libjni_blurbuster.so:system/vendor/lib/libjni_blurbuster.so \
     vendor/htc/ocn/proprietary/vendor/lib/libjni_chromaflash.so:system/vendor/lib/libjni_chromaflash.so \
@@ -921,10 +928,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
     vendor/htc/ocn/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
     vendor/htc/ocn/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
+    vendor/htc/ocn/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
     vendor/htc/ocn/proprietary/vendor/lib64/hw/fingerprint.fpc.so:system/vendor/lib64/hw/fingerprint.fpc.so \
     vendor/htc/ocn/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/htc/ocn/proprietary/vendor/lib64/hw/gatekeeper.msm8998.so:system/vendor/lib64/hw/gatekeeper.msm8998.so \
-    vendor/htc/ocn/proprietary/vendor/lib64/hw/keystore.msm8998.so:system/vendor/lib64/hw/keystore.msm8998.so \
     vendor/htc/ocn/proprietary/vendor/lib64/hw/vulkan.msm8998.so:system/vendor/lib64/hw/vulkan.msm8998.so \
     vendor/htc/ocn/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
     vendor/htc/ocn/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
@@ -980,6 +987,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib64/libc2d30-a5xx.so:system/vendor/lib64/libc2d30-a5xx.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libcdsprpc.so:system/vendor/lib64/libcdsprpc.so \
+    vendor/htc/ocn/proprietary/vendor/lib64/libchromaflash.so:system/vendor/lib64/libchromaflash.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
@@ -1012,6 +1020,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libhdcp1prov.so:system/vendor/lib64/libhdcp1prov.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libhtc_common.so:system/vendor/lib64/libhtc_common.so \
+    vendor/htc/ocn/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
@@ -1032,8 +1041,19 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
+    vendor/htc/ocn/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
+    vendor/htc/ocn/proprietary/vendor/lib64/libmmcamera2_is.so:system/vendor/lib64/libmmcamera2_is.so \
+    vendor/htc/ocn/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:system/vendor/lib64/libmmcamera2_q3a_core.so \
+    vendor/htc/ocn/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
+    vendor/htc/ocn/proprietary/vendor/lib64/libmmcamera2_stats_lib.so:system/vendor/lib64/libmmcamera2_stats_lib.so \
+    vendor/htc/ocn/proprietary/vendor/lib64/libmmcamera_dbg.so:system/vendor/lib64/libmmcamera_dbg.so \
+    vendor/htc/ocn/proprietary/vendor/lib64/libmmcamera_faceproc.so:system/vendor/lib64/libmmcamera_faceproc.so \
+    vendor/htc/ocn/proprietary/vendor/lib64/libmmcamera_faceproc2.so:system/vendor/lib64/libmmcamera_faceproc2.so \
+    vendor/htc/ocn/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:system/vendor/lib64/libmmcamera_tintless_algo.so \
+    vendor/htc/ocn/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
+    vendor/htc/ocn/proprietary/vendor/lib64/liboptizoom.so:system/vendor/lib64/liboptizoom.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libpdmapper.so:system/vendor/lib64/libpdmapper.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libpdnotifier.so:system/vendor/lib64/libpdnotifier.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
@@ -1103,6 +1123,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libsdsprpc.so:system/vendor/lib64/libsdsprpc.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
+    vendor/htc/ocn/proprietary/vendor/lib64/libseemore.so:system/vendor/lib64/libseemore.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
@@ -1112,6 +1133,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
+    vendor/htc/ocn/proprietary/vendor/lib64/libubifocus.so:system/vendor/lib64/libubifocus.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
@@ -1135,8 +1157,10 @@ PRODUCT_PACKAGES += \
     libsdm-disp-apis \
     libthermalclient \
     libtime_genoff \
+    libqct_resampler \
     TimeService \
     CNEService \
     QtiTetherService \
     com.qualcomm.location \
+    ims \
     qcrilhook
