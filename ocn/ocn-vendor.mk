@@ -20,10 +20,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/bin/cnd:system/bin/cnd \
     vendor/htc/ocn/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/htc/ocn/proprietary/bin/dpm:system/bin/dpm \
-    vendor/htc/ocn/proprietary/bin/dun-server:system/bin/dun-server \
     vendor/htc/ocn/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/htc/ocn/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/htc/ocn/proprietary/bin/htc_ebdlogd:system/bin/htc_ebdlogd \
     vendor/htc/ocn/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/htc/ocn/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/htc/ocn/proprietary/bin/imscmservice:system/bin/imscmservice \
@@ -33,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/htc/ocn/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/htc/ocn/proprietary/bin/lowi-server:system/bin/lowi-server \
-    vendor/htc/ocn/proprietary/bin/mlogger:system/bin/mlogger \
     vendor/htc/ocn/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/htc/ocn/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/htc/ocn/proprietary/bin/nanoapp_cmd:system/bin/nanoapp_cmd \
@@ -47,7 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/htc/ocn/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/htc/ocn/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
-    vendor/htc/ocn/proprietary/bin/wfdservice:system/bin/wfdservice \
     vendor/htc/ocn/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/htc/ocn/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/htc/ocn/proprietary/etc/AudioBTIDnew.csv:system/etc/AudioBTIDnew.csv \
@@ -321,10 +317,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/htc/ocn/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/htc/ocn/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
-    vendor/htc/ocn/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/htc/ocn/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/htc/ocn/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/htc/ocn/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/htc/ocn/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/htc/ocn/proprietary/etc/powerhint.xml:system/etc/powerhint.xml \
     vendor/htc/ocn/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
@@ -338,7 +332,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/htc/ocn/proprietary/framework/dpm.jar:system/framework/dpm.jar \
     vendor/htc/ocn/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
-    vendor/htc/ocn/proprietary/framework/ims-common.jar:system/framework/ims-common.jar \
     vendor/htc/ocn/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/htc/ocn/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/htc/ocn/proprietary/framework/tcmiface.jar:system/framework/tcmiface.jar \
@@ -350,12 +343,13 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/lib/lib_htc_fp_hal_util.so:system/lib/lib_htc_fp_hal_util.so \
     vendor/htc/ocn/proprietary/lib/libawb_calibration.so:system/lib/libawb_calibration.so \
     vendor/htc/ocn/proprietary/lib/libbthost_if.so:system/lib/libbthost_if.so \
+    vendor/htc/ocn/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/htc/ocn/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
     vendor/htc/ocn/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
+    vendor/htc/ocn/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/htc/ocn/proprietary/lib/libhtc_facebeauty.so:system/lib/libhtc_facebeauty.so \
     vendor/htc/ocn/proprietary/lib/libhtcsecure.so:system/lib/libhtcsecure.so \
     vendor/htc/ocn/proprietary/lib/libhubconnection.so:system/lib/libhubconnection.so \
-    vendor/htc/ocn/proprietary/lib/liblog.so:system/lib/liblog.so \
     vendor/htc/ocn/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/htc/ocn/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/htc/ocn/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -375,7 +369,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/lib/libopencv_rsobjdetect.so:system/lib/libopencv_rsobjdetect.so \
     vendor/htc/ocn/proprietary/lib/libopencv_video.so:system/lib/libopencv_video.so \
     vendor/htc/ocn/proprietary/lib/libopencv_videoio.so:system/lib/libopencv_videoio.so \
-    vendor/htc/ocn/proprietary/lib/libpower.so:system/lib/libpower.so \
     vendor/htc/ocn/proprietary/lib/libprojector.so:system/lib/libprojector.so \
     vendor/htc/ocn/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/htc/ocn/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
@@ -401,11 +394,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/lib64/lib_htc_fp_hal_util.so:system/lib64/lib_htc_fp_hal_util.so \
     vendor/htc/ocn/proprietary/lib64/libawb_calibration.so:system/lib64/libawb_calibration.so \
     vendor/htc/ocn/proprietary/lib64/libbthost_if.so:system/lib64/libbthost_if.so \
+    vendor/htc/ocn/proprietary/lib64/libcamera_client.so:system/lib64/libcamera_client.so \
+    vendor/htc/ocn/proprietary/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
     vendor/htc/ocn/proprietary/lib64/libhtcsecure.so:system/lib64/libhtcsecure.so \
     vendor/htc/ocn/proprietary/lib64/libhubconnection.so:system/lib64/libhubconnection.so \
     vendor/htc/ocn/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/htc/ocn/proprietary/lib64/liblog.so:system/lib64/liblog.so \
-    vendor/htc/ocn/proprietary/lib64/libpower.so:system/lib64/libpower.so \
     vendor/htc/ocn/proprietary/lib64/libprojector.so:system/lib64/libprojector.so \
     vendor/htc/ocn/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/htc/ocn/proprietary/lib64/sensors.hal.tof.so:system/lib64/sensors.hal.tof.so \
@@ -501,7 +494,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
     vendor/htc/ocn/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
     vendor/htc/ocn/proprietary/vendor/firmware/wlanmdsp.mbn:system/vendor/firmware/wlanmdsp.mbn \
-    vendor/htc/ocn/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
     vendor/htc/ocn/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/htc/ocn/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/htc/ocn/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -837,6 +829,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/htc/ocn/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/htc/ocn/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
+    vendor/htc/ocn/proprietary/vendor/lib/libqseed3.so:system/vendor/lib/libqseed3.so \
     vendor/htc/ocn/proprietary/vendor/lib/libqti-at.so:system/vendor/lib/libqti-at.so \
     vendor/htc/ocn/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/htc/ocn/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
@@ -1072,6 +1065,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libqmiservices_ext.so:system/vendor/lib64/libqmiservices_ext.so \
+    vendor/htc/ocn/proprietary/vendor/lib64/libqseed3.so:system/vendor/lib64/libqseed3.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libqti-at.so:system/vendor/lib64/libqti-at.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libqti-iop.so:system/vendor/lib64/libqti-iop.so \
@@ -1162,5 +1156,4 @@ PRODUCT_PACKAGES += \
     CNEService \
     QtiTetherService \
     com.qualcomm.location \
-    ims \
     qcrilhook
