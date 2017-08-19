@@ -317,8 +317,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/htc/ocn/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/htc/ocn/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
+    vendor/htc/ocn/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/htc/ocn/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/htc/ocn/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/htc/ocn/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/htc/ocn/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/htc/ocn/proprietary/etc/powerhint.xml:system/etc/powerhint.xml \
     vendor/htc/ocn/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
@@ -332,7 +334,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/htc/ocn/proprietary/framework/dpm.jar:system/framework/dpm.jar \
     vendor/htc/ocn/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
+    vendor/htc/ocn/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
     vendor/htc/ocn/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
+    vendor/htc/ocn/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/htc/ocn/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/htc/ocn/proprietary/framework/tcmiface.jar:system/framework/tcmiface.jar \
     vendor/htc/ocn/proprietary/lib/hw/camera.msm8998.so:system/lib/hw/camera.msm8998.so \
@@ -494,6 +498,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
     vendor/htc/ocn/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
     vendor/htc/ocn/proprietary/vendor/firmware/wlanmdsp.mbn:system/vendor/firmware/wlanmdsp.mbn \
+    vendor/htc/ocn/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
     vendor/htc/ocn/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/htc/ocn/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/htc/ocn/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -1156,4 +1161,6 @@ PRODUCT_PACKAGES += \
     CNEService \
     QtiTetherService \
     com.qualcomm.location \
+    ims \
+    imssettings \
     qcrilhook
