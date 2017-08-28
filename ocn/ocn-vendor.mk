@@ -329,11 +329,13 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/htc/ocn/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/htc/ocn/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
+    vendor/htc/ocn/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/htc/ocn/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/htc/ocn/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/htc/ocn/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/htc/ocn/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
     vendor/htc/ocn/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
+    vendor/htc/ocn/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/htc/ocn/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/htc/ocn/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/htc/ocn/proprietary/framework/tcmiface.jar:system/framework/tcmiface.jar \
