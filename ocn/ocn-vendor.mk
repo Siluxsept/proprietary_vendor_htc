@@ -347,10 +347,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/lib/lib_htc_fp_hal_util.so:system/lib/lib_htc_fp_hal_util.so \
     vendor/htc/ocn/proprietary/lib/libawb_calibration.so:system/lib/libawb_calibration.so \
     vendor/htc/ocn/proprietary/lib/libbthost_if.so:system/lib/libbthost_if.so \
-    vendor/htc/ocn/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
     vendor/htc/ocn/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
     vendor/htc/ocn/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
-    vendor/htc/ocn/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/htc/ocn/proprietary/lib/libhtc_facebeauty.so:system/lib/libhtc_facebeauty.so \
     vendor/htc/ocn/proprietary/lib/libhtcsecure.so:system/lib/libhtcsecure.so \
     vendor/htc/ocn/proprietary/lib/libhubconnection.so:system/lib/libhubconnection.so \
@@ -398,8 +396,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/lib64/lib_htc_fp_hal_util.so:system/lib64/lib_htc_fp_hal_util.so \
     vendor/htc/ocn/proprietary/lib64/libawb_calibration.so:system/lib64/libawb_calibration.so \
     vendor/htc/ocn/proprietary/lib64/libbthost_if.so:system/lib64/libbthost_if.so \
-    vendor/htc/ocn/proprietary/lib64/libcamera_client.so:system/lib64/libcamera_client.so \
-    vendor/htc/ocn/proprietary/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
     vendor/htc/ocn/proprietary/lib64/libhtcsecure.so:system/lib64/libhtcsecure.so \
     vendor/htc/ocn/proprietary/lib64/libhubconnection.so:system/lib64/libhubconnection.so \
     vendor/htc/ocn/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
