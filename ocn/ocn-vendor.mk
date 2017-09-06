@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/htc/ocn/proprietary/bin/cnd:system/bin/cnd \
     vendor/htc/ocn/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
-    vendor/htc/ocn/proprietary/bin/dpm:system/bin/dpm \
     vendor/htc/ocn/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/htc/ocn/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/htc/ocn/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
@@ -332,7 +331,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/htc/ocn/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/htc/ocn/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/htc/ocn/proprietary/framework/dpm.jar:system/framework/dpm.jar \
     vendor/htc/ocn/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/htc/ocn/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
     vendor/htc/ocn/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
@@ -375,21 +373,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/htc/ocn/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/htc/ocn/proprietary/lib/sensors.hal.tof.so:system/lib/sensors.hal.tof.so \
-    vendor/htc/ocn/proprietary/lib/soundfx/libadaptsoundse.so:system/lib/soundfx/libadaptsoundse.so \
-    vendor/htc/ocn/proprietary/lib/soundfx/libadaptsoundsehw.so:system/lib/soundfx/libadaptsoundsehw.so \
-    vendor/htc/ocn/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
-    vendor/htc/ocn/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
-    vendor/htc/ocn/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
-    vendor/htc/ocn/proprietary/lib/soundfx/libeffectproxy.so:system/lib/soundfx/libeffectproxy.so \
-    vendor/htc/ocn/proprietary/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
-    vendor/htc/ocn/proprietary/lib/soundfx/liblimitercopp.so:system/lib/soundfx/liblimitercopp.so \
-    vendor/htc/ocn/proprietary/lib/soundfx/liblimitercopphw.so:system/lib/soundfx/liblimitercopphw.so \
-    vendor/htc/ocn/proprietary/lib/soundfx/libqcompostprocbundle.so:system/lib/soundfx/libqcompostprocbundle.so \
-    vendor/htc/ocn/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
-    vendor/htc/ocn/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
-    vendor/htc/ocn/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
-    vendor/htc/ocn/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
-    vendor/htc/ocn/proprietary/lib/soundfx/libvolumelistener.so:system/lib/soundfx/libvolumelistener.so \
     vendor/htc/ocn/proprietary/lib64/hw/keystore.msm8998.so:system/lib64/hw/keystore.msm8998.so \
     vendor/htc/ocn/proprietary/lib64/hw/sensors.msm8998.so:system/lib64/hw/sensors.msm8998.so \
     vendor/htc/ocn/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
@@ -402,21 +385,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/lib64/libprojector.so:system/lib64/libprojector.so \
     vendor/htc/ocn/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/htc/ocn/proprietary/lib64/sensors.hal.tof.so:system/lib64/sensors.hal.tof.so \
-    vendor/htc/ocn/proprietary/lib64/soundfx/libadaptsoundse.so:system/lib64/soundfx/libadaptsoundse.so \
-    vendor/htc/ocn/proprietary/lib64/soundfx/libadaptsoundsehw.so:system/lib64/soundfx/libadaptsoundsehw.so \
-    vendor/htc/ocn/proprietary/lib64/soundfx/libaudiopreprocessing.so:system/lib64/soundfx/libaudiopreprocessing.so \
-    vendor/htc/ocn/proprietary/lib64/soundfx/libbundlewrapper.so:system/lib64/soundfx/libbundlewrapper.so \
-    vendor/htc/ocn/proprietary/lib64/soundfx/libdownmix.so:system/lib64/soundfx/libdownmix.so \
-    vendor/htc/ocn/proprietary/lib64/soundfx/libeffectproxy.so:system/lib64/soundfx/libeffectproxy.so \
-    vendor/htc/ocn/proprietary/lib64/soundfx/libldnhncr.so:system/lib64/soundfx/libldnhncr.so \
-    vendor/htc/ocn/proprietary/lib64/soundfx/liblimitercopp.so:system/lib64/soundfx/liblimitercopp.so \
-    vendor/htc/ocn/proprietary/lib64/soundfx/liblimitercopphw.so:system/lib64/soundfx/liblimitercopphw.so \
-    vendor/htc/ocn/proprietary/lib64/soundfx/libqcompostprocbundle.so:system/lib64/soundfx/libqcompostprocbundle.so \
-    vendor/htc/ocn/proprietary/lib64/soundfx/libqcomvisualizer.so:system/lib64/soundfx/libqcomvisualizer.so \
-    vendor/htc/ocn/proprietary/lib64/soundfx/libqcomvoiceprocessing.so:system/lib64/soundfx/libqcomvoiceprocessing.so \
-    vendor/htc/ocn/proprietary/lib64/soundfx/libreverbwrapper.so:system/lib64/soundfx/libreverbwrapper.so \
-    vendor/htc/ocn/proprietary/lib64/soundfx/libvisualizer.so:system/lib64/soundfx/libvisualizer.so \
-    vendor/htc/ocn/proprietary/lib64/soundfx/libvolumelistener.so:system/lib64/soundfx/libvolumelistener.so \
     vendor/htc/ocn/proprietary/vendor/bin/esepmdaemon:system/vendor/bin/esepmdaemon \
     vendor/htc/ocn/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/htc/ocn/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
@@ -643,7 +611,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib/libgcs-ipc.so:system/vendor/lib/libgcs-ipc.so \
     vendor/htc/ocn/proprietary/vendor/lib/libgcs-osal.so:system/vendor/lib/libgcs-osal.so \
     vendor/htc/ocn/proprietary/vendor/lib/libgcs.so:system/vendor/lib/libgcs.so \
-    vendor/htc/ocn/proprietary/vendor/lib/libgpustats.so:system/vendor/lib/libgpustats.so \
     vendor/htc/ocn/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/htc/ocn/proprietary/vendor/lib/libhdcp1prov.so:system/vendor/lib/libhdcp1prov.so \
     vendor/htc/ocn/proprietary/vendor/lib/libhtc_common.so:system/vendor/lib/libhtc_common.so \
@@ -886,7 +853,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/htc/ocn/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/htc/ocn/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/htc/ocn/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/htc/ocn/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so:system/vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so \
     vendor/htc/ocn/proprietary/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so:system/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so \
     vendor/htc/ocn/proprietary/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_800h_skel.so:system/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_800h_skel.so \
@@ -1010,7 +976,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib64/libgcs.so:system/vendor/lib64/libgcs.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
-    vendor/htc/ocn/proprietary/vendor/lib64/libgpustats.so:system/vendor/lib64/libgpustats.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libhdcp1prov.so:system/vendor/lib64/libhdcp1prov.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libhtc_common.so:system/vendor/lib64/libhtc_common.so \
