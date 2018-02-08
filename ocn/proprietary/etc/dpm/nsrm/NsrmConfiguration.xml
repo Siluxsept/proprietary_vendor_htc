@@ -15,11 +15,11 @@
     <!--Maximum time in seconds to wait before forcing gate open for connect,
          getaddrinfo or other resolver calls
          valid values 1 to 24*60*60 seconds-->
-    <GateSyncSocketSetupTime>300</GateSyncSocketSetupTime>
+    <GateSyncSocketSetupTime>1200</GateSyncSocketSetupTime>
     <!--Maximum time in seconds to wait before forcing gate open for write and
         other socket calls that send data
         valid values 1 to 24*60*60 seconds-->
-    <GateSyncSocketWriteTime>55</GateSyncSocketWriteTime>
+    <GateSyncSocketWriteTime>600</GateSyncSocketWriteTime>
     <!--Time in seconds to wait before releasing the queued sockets when the
         emergency alert notification is received
         EAQSRT stands for Emergency Alert Queued Socket Release Delay Time
@@ -27,13 +27,9 @@
     <EAQSRDT>60</EAQSRDT>
     <!--Mode to indicate how processes which share the same UID should be
         handled-->
-    <SharedUIDMode>Aggressive</SharedUIDMode>
+    <SharedUIDMode>Conservative</SharedUIDMode>
     <!--List of applications which to apply Nsrm to-->
     <AppList Type="Exclusion">
-    <AppName>com.kddi.android.email</AppName>
-    <AppName>com.au.android.safetynavi.client</AppName>
-    <AppName>com.kddi.android.lismobookstore</AppName>
-    <AppName>com.whatsapp</AppName>
     </AppList>
     <!-- Example MCC_MNC configuration
          NTO values are configured in seconds
@@ -91,7 +87,7 @@
     <RecheckThr>1.1</RecheckThr>
 
     <!-- Decision made. 0 false, 1 true -->
-    <DNsrmEnable>0</DNsrmEnable>
+    <DNsrmEnable>1</DNsrmEnable>
 
     <!-- Nsrm Wlan Enable . 0 Disable, 1 Enable -->
     <NsrmWlanEnable>0</NsrmWlanEnable>
