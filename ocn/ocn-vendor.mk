@@ -168,6 +168,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
     vendor/htc/ocn/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
     vendor/htc/ocn/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
+    vendor/htc/ocn/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/htc/ocn/proprietary/lib/libdpmctmgr.so:system/lib/libdpmctmgr.so \
     vendor/htc/ocn/proprietary/lib/libdpmfdmgr.so:system/lib/libdpmfdmgr.so \
     vendor/htc/ocn/proprietary/lib/libdpmframework.so:system/lib/libdpmframework.so \
@@ -222,6 +223,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
     vendor/htc/ocn/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/htc/ocn/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
+    vendor/htc/ocn/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/htc/ocn/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
     vendor/htc/ocn/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \
     vendor/htc/ocn/proprietary/lib64/libdpmframework.so:system/lib64/libdpmframework.so \
