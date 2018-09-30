@@ -192,9 +192,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
     vendor/htc/ocn/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
     vendor/htc/ocn/proprietary/lib/libqct_resampler.so:system/lib/libqct_resampler.so \
-    vendor/htc/ocn/proprietary/lib/libqti-at.so:system/lib/libqti-at.so \
-    vendor/htc/ocn/proprietary/lib/libqti-util_system.so:system/lib/libqti-util_system.so \
-    vendor/htc/ocn/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/htc/ocn/proprietary/lib/libqvr_adsp_driver_skel.so:system/lib/libqvr_adsp_driver_skel.so \
     vendor/htc/ocn/proprietary/lib/libqvr_adsp_driver_stub.so:system/lib/libqvr_adsp_driver_stub.so \
     vendor/htc/ocn/proprietary/lib/libqvrcamera_client.so:system/lib/libqvrcamera_client.so \
@@ -246,9 +243,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
     vendor/htc/ocn/proprietary/lib64/libmmrtpdecoder.so:system/lib64/libmmrtpdecoder.so \
     vendor/htc/ocn/proprietary/lib64/libmmrtpencoder.so:system/lib64/libmmrtpencoder.so \
-    vendor/htc/ocn/proprietary/lib64/libqti-at.so:system/lib64/libqti-at.so \
-    vendor/htc/ocn/proprietary/lib64/libqti-util_system.so:system/lib64/libqti-util_system.so \
-    vendor/htc/ocn/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/htc/ocn/proprietary/lib64/libqvrcamera_client.so:system/lib64/libqvrcamera_client.so \
     vendor/htc/ocn/proprietary/lib64/libqvrservice_hvxcameraclient.so:system/lib64/libqvrservice_hvxcameraclient.so \
     vendor/htc/ocn/proprietary/lib64/libqvrservice_ov7251_hvx_tuning.so:system/lib64/libqvrservice_ov7251_hvx_tuning.so \
@@ -709,6 +703,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib/libevent_observer.so:system/vendor/lib/libevent_observer.so \
     vendor/htc/ocn/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/htc/ocn/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
+    vendor/htc/ocn/proprietary/vendor/lib/libfeedbackhandler.so:system/vendor/lib/libfeedbackhandler.so \
     vendor/htc/ocn/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/htc/ocn/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/htc/ocn/proprietary/vendor/lib/libgcs-calwrapper.so:system/vendor/lib/libgcs-calwrapper.so \
@@ -880,7 +875,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/htc/ocn/proprietary/vendor/lib/libperfgluelayer.so:system/vendor/lib/libperfgluelayer.so \
     vendor/htc/ocn/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
-    vendor/htc/ocn/proprietary/vendor/lib/libpnp-util.so:system/vendor/lib/libpnp-util.so \
     vendor/htc/ocn/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/htc/ocn/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/htc/ocn/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
@@ -897,8 +891,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/htc/ocn/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/htc/ocn/proprietary/vendor/lib/libqseed3.so:system/vendor/lib/libqseed3.so \
-    vendor/htc/ocn/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
-    vendor/htc/ocn/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
     vendor/htc/ocn/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/htc/ocn/proprietary/vendor/lib/libqti-perfd.so:system/vendor/lib/libqti-perfd.so \
     vendor/htc/ocn/proprietary/vendor/lib/libqti-util.so:system/vendor/lib/libqti-util.so \
@@ -1018,6 +1010,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
+    vendor/htc/ocn/proprietary/vendor/lib64/libfeedbackhandler.so:system/vendor/lib64/libfeedbackhandler.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
@@ -1111,7 +1104,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib64/libpdnotifier.so:system/vendor/lib64/libpdnotifier.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libperfgluelayer.so:system/vendor/lib64/libperfgluelayer.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
-    vendor/htc/ocn/proprietary/vendor/lib64/libpnp-util.so:system/vendor/lib64/libpnp-util.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
@@ -1125,8 +1117,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libqseed3.so:system/vendor/lib64/libqseed3.so \
-    vendor/htc/ocn/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
-    vendor/htc/ocn/proprietary/vendor/lib64/libqti-iop.so:system/vendor/lib64/libqti-iop.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libqti-perfd.so:system/vendor/lib64/libqti-perfd.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libqti-util.so:system/vendor/lib64/libqti-util.so \
