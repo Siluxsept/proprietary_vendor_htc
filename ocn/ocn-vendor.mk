@@ -146,9 +146,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/htc/ocn/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/htc/ocn/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
-    vendor/htc/ocn/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/htc/ocn/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
     vendor/htc/ocn/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/htc/ocn/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/htc/ocn/proprietary/vendor/framework/QtiTelephonyServicelibrary.jar:system/vendor/framework/QtiTelephonyServicelibrary.jar \
     vendor/htc/ocn/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/htc/ocn/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/htc/ocn/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
@@ -157,6 +158,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/htc/ocn/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/htc/ocn/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
+    vendor/htc/ocn/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/htc/ocn/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/htc/ocn/proprietary/framework/tcmiface.jar:system/framework/tcmiface.jar \
     vendor/htc/ocn/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
@@ -530,6 +532,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
     vendor/htc/ocn/proprietary/vendor/firmware/wdspver.cfg:system/vendor/firmware/wdspver.cfg \
     vendor/htc/ocn/proprietary/vendor/firmware/wlanmdsp.mbn:system/vendor/firmware/wlanmdsp.mbn \
+    vendor/htc/ocn/proprietary/vendor/framework/qcrilhook.jar:system/vendor/framework/qcrilhook.jar \
     vendor/htc/ocn/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
     vendor/htc/ocn/proprietary/vendor/lib/com.qualcomm.qti.ant@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.ant@1.0_vendor.so \
     vendor/htc/ocn/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
@@ -1201,4 +1204,9 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libthermalclient \
     libtime_genoff \
+    ims \
+    CNEService \
+    com.qualcomm.location \
+    qcrilmsgtunnel \
+    QtiTelephonyService \
     TimeService
