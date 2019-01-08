@@ -292,7 +292,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/htc/ocn/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
     vendor/htc/ocn/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/htc/ocn/proprietary/vendor/bin/thermal-monitor:system/vendor/bin/thermal-monitor \
     vendor/htc/ocn/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/htc/ocn/proprietary/vendor/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
     vendor/htc/ocn/proprietary/vendor/bin/xtwifi-client:system/vendor/bin/xtwifi-client \
@@ -380,7 +379,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/etc/qvr/qvrservice_config.txt:system/vendor/etc/qvr/qvrservice_config.txt \
     vendor/htc/ocn/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:system/vendor/etc/sensors/sensor_def_qcomdev.conf \
     vendor/htc/ocn/proprietary/vendor/etc/thermal-engine.conf:system/vendor/etc/thermal-engine.conf \
-    vendor/htc/ocn/proprietary/vendor/etc/thermal-monitor.conf:system/vendor/etc/thermal-monitor.conf \
     vendor/htc/ocn/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
     vendor/htc/ocn/proprietary/vendor/firmware/Data.msc:system/vendor/firmware/Data.msc \
     vendor/htc/ocn/proprietary/vendor/firmware/a225_pfp.fw:system/vendor/firmware/a225_pfp.fw \
