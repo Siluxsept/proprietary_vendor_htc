@@ -225,6 +225,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/lib/libwfduibcsinkinterface.so:system/lib/libwfduibcsinkinterface.so \
     vendor/htc/ocn/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
     vendor/htc/ocn/proprietary/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
+    vendor/htc/ocn/proprietary/lib/libwfdclient.so:system/lib/libwfdclient.so \
     vendor/htc/ocn/proprietary/lib/libxt_native.so:system/lib/libxt_native.so \
     vendor/htc/ocn/proprietary/lib/sensors.hal.tof.so:system/lib/sensors.hal.tof.so \
     vendor/htc/ocn/proprietary/lib/vendor.qti.gnss@1.0.so:system/lib/vendor.qti.gnss@1.0.so \
@@ -275,6 +276,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/lib64/libtrueportrait.so:system/lib64/libtrueportrait.so \
     vendor/htc/ocn/proprietary/lib64/libvendorconn.so:system/lib64/libvendorconn.so \
     vendor/htc/ocn/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
+    vendor/htc/ocn/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
+	vendor/htc/ocn/proprietary/lib64/libwfds.so:system/lib64/libwfds.so \
     vendor/htc/ocn/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
     vendor/htc/ocn/proprietary/lib64/sensors.hal.tof.so:system/lib64/sensors.hal.tof.so \
     vendor/htc/ocn/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
