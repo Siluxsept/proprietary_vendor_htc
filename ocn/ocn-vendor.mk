@@ -1223,7 +1223,6 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     CNEService \
     WfdService \
-    com.qualcomm.location \
     ims \
     qcrilmsgtunnel \
     QtiTelephonyService \
