@@ -21,13 +21,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_SYSTEM)/bin/mm-qcamera-daemon \
     vendor/htc/ocn/proprietary/bin/nanoapp_cmd:$(TARGET_COPY_OUT_SYSTEM)/bin/nanoapp_cmd \
-    vendor/htc/ocn/proprietary/bin/qvrcameratest:$(TARGET_COPY_OUT_SYSTEM)/bin/qvrcameratest \
-    vendor/htc/ocn/proprietary/bin/qvrcameratest64:$(TARGET_COPY_OUT_SYSTEM)/bin/qvrcameratest64 \
-    vendor/htc/ocn/proprietary/bin/qvrcameratseq:$(TARGET_COPY_OUT_SYSTEM)/bin/qvrcameratseq \
-    vendor/htc/ocn/proprietary/bin/qvrcameratseq64:$(TARGET_COPY_OUT_SYSTEM)/bin/qvrcameratseq64 \
-    vendor/htc/ocn/proprietary/bin/qvrservice:$(TARGET_COPY_OUT_SYSTEM)/bin/qvrservice \
-    vendor/htc/ocn/proprietary/bin/qvrservicetest:$(TARGET_COPY_OUT_SYSTEM)/bin/qvrservicetest \
-    vendor/htc/ocn/proprietary/bin/qvrservicetest64:$(TARGET_COPY_OUT_SYSTEM)/bin/qvrservicetest64 \
     vendor/htc/ocn/proprietary/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM)/bin/wfdservice \
     vendor/htc/ocn/proprietary/etc/NOTFA_default_vol_level.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/NOTFA_default_vol_level.conf \
     vendor/htc/ocn/proprietary/etc/TFA_default_vol_level.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/TFA_default_vol_level.conf \
@@ -186,31 +179,12 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/lib/libhubconnection.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhubconnection.so \
     vendor/htc/ocn/proprietary/lib/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimscamera_jni.so \
     vendor/htc/ocn/proprietary/lib/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsmedia_jni.so \
-    vendor/htc/ocn/proprietary/lib/libjni_blurbuster.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjni_blurbuster.so \
-    vendor/htc/ocn/proprietary/lib/libjni_chromaflash.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjni_chromaflash.so \
-    vendor/htc/ocn/proprietary/lib/libjni_dualcamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjni_dualcamera.so \
-    vendor/htc/ocn/proprietary/lib/libjni_filtergenerator.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjni_filtergenerator.so \
-    vendor/htc/ocn/proprietary/lib/libjni_makeupV2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjni_makeupV2.so \
-    vendor/htc/ocn/proprietary/lib/libjni_optizoom.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjni_optizoom.so \
-    vendor/htc/ocn/proprietary/lib/libjni_panorama.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjni_panorama.so \
-    vendor/htc/ocn/proprietary/lib/libjni_sharpshooter.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjni_sharpshooter.so \
-    vendor/htc/ocn/proprietary/lib/libjni_stillmore.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjni_stillmore.so \
-    vendor/htc/ocn/proprietary/lib/libjni_trackingfocus.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjni_trackingfocus.so \
-    vendor/htc/ocn/proprietary/lib/libjni_ubifocus.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjni_ubifocus.so \
     vendor/htc/ocn/proprietary/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmosal.so \
     vendor/htc/ocn/proprietary/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmparser_lite.so \
     vendor/htc/ocn/proprietary/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmrtpdecoder.so \
     vendor/htc/ocn/proprietary/lib/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmrtpencoder.so \
     vendor/htc/ocn/proprietary/lib/libqct_resampler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqct_resampler.so \
-    vendor/htc/ocn/proprietary/lib/libqvr_adsp_driver_skel.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqvr_adsp_driver_skel.so \
-    vendor/htc/ocn/proprietary/lib/libqvr_adsp_driver_stub.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqvr_adsp_driver_stub.so \
-    vendor/htc/ocn/proprietary/lib/libqvrcamera_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqvrcamera_client.so \
-    vendor/htc/ocn/proprietary/lib/libqvrservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqvrservice.so \
-    vendor/htc/ocn/proprietary/lib/libqvrservice_hvxcameraclient.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqvrservice_hvxcameraclient.so \
-    vendor/htc/ocn/proprietary/lib/libqvrservice_ov7251_hvx_tuning.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqvrservice_ov7251_hvx_tuning.so \
-    vendor/htc/ocn/proprietary/lib/libqvrservice_ov9282_hvx_tuning.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqvrservice_ov9282_hvx_tuning.so \
     vendor/htc/ocn/proprietary/lib/librcc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/librcc.so \
-    vendor/htc/ocn/proprietary/lib/libtrueportrait.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtrueportrait.so \
     vendor/htc/ocn/proprietary/lib/libvendorconn.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvendorconn.so \
     vendor/htc/ocn/proprietary/lib/libwfdavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdavenhancements.so \
     vendor/htc/ocn/proprietary/lib/libwfdclient.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdclient.so \
@@ -229,7 +203,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/lib/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsinkinterface.so \
     vendor/htc/ocn/proprietary/lib/libwfduibcsrc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrc.so \
     vendor/htc/ocn/proprietary/lib/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrcinterface.so \
-    vendor/htc/ocn/proprietary/lib/sensors.hal.tof.so:$(TARGET_COPY_OUT_SYSTEM)/lib/sensors.hal.tof.so \
     vendor/htc/ocn/proprietary/lib/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.gnss@1.0.so \
     vendor/htc/ocn/proprietary/lib/vendor.qti.gnss@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.gnss@1.1.so \
     vendor/htc/ocn/proprietary/lib/vendor.qti.gnss@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.gnss@1.2.so \
@@ -258,33 +231,16 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/lib64/libhubconnection.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhubconnection.so \
     vendor/htc/ocn/proprietary/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimscamera_jni.so \
     vendor/htc/ocn/proprietary/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsmedia_jni.so \
-    vendor/htc/ocn/proprietary/lib64/libjni_blurbuster.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_blurbuster.so \
-    vendor/htc/ocn/proprietary/lib64/libjni_chromaflash.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_chromaflash.so \
-    vendor/htc/ocn/proprietary/lib64/libjni_dualcamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_dualcamera.so \
-    vendor/htc/ocn/proprietary/lib64/libjni_filtergenerator.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_filtergenerator.so \
-    vendor/htc/ocn/proprietary/lib64/libjni_makeupV2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_makeupV2.so \
-    vendor/htc/ocn/proprietary/lib64/libjni_optizoom.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_optizoom.so \
-    vendor/htc/ocn/proprietary/lib64/libjni_panorama.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_panorama.so \
-    vendor/htc/ocn/proprietary/lib64/libjni_sharpshooter.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_sharpshooter.so \
-    vendor/htc/ocn/proprietary/lib64/libjni_stillmore.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_stillmore.so \
-    vendor/htc/ocn/proprietary/lib64/libjni_trackingfocus.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_trackingfocus.so \
-    vendor/htc/ocn/proprietary/lib64/libjni_ubifocus.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_ubifocus.so \
     vendor/htc/ocn/proprietary/lib64/liblocationservice_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liblocationservice_jni.so \
     vendor/htc/ocn/proprietary/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmosal.so \
     vendor/htc/ocn/proprietary/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmparser_lite.so \
     vendor/htc/ocn/proprietary/lib64/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmrtpdecoder.so \
     vendor/htc/ocn/proprietary/lib64/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmrtpencoder.so \
-    vendor/htc/ocn/proprietary/lib64/libqvrcamera_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqvrcamera_client.so \
-    vendor/htc/ocn/proprietary/lib64/libqvrservice_hvxcameraclient.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqvrservice_hvxcameraclient.so \
-    vendor/htc/ocn/proprietary/lib64/libqvrservice_ov7251_hvx_tuning.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqvrservice_ov7251_hvx_tuning.so \
-    vendor/htc/ocn/proprietary/lib64/libqvrservice_ov9282_hvx_tuning.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqvrservice_ov9282_hvx_tuning.so \
     vendor/htc/ocn/proprietary/lib64/librcc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/librcc.so \
-    vendor/htc/ocn/proprietary/lib64/libtrueportrait.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libtrueportrait.so \
     vendor/htc/ocn/proprietary/lib64/libvendorconn.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvendorconn.so \
     vendor/htc/ocn/proprietary/lib64/libwfdclient.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdclient.so \
     vendor/htc/ocn/proprietary/lib64/libwfdnative.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdnative.so \
     vendor/htc/ocn/proprietary/lib64/libxt_native.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libxt_native.so \
-    vendor/htc/ocn/proprietary/lib64/sensors.hal.tof.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/sensors.hal.tof.so \
     vendor/htc/ocn/proprietary/lib64/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.gnss@1.0.so \
     vendor/htc/ocn/proprietary/lib64/vendor.qti.gnss@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.gnss@1.1.so \
     vendor/htc/ocn/proprietary/lib64/vendor.qti.gnss@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.gnss@1.2.so \
@@ -386,16 +342,12 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/htc/ocn/proprietary/vendor/etc/htc_audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/htc_audio_effects.conf \
     vendor/htc/ocn/proprietary/vendor/etc/htc_sound_mfg.txt:$(TARGET_COPY_OUT_VENDOR)/etc/htc_sound_mfg.txt \
+    vendor/htc/ocn/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/htc/ocn/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/htc/ocn/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc \
-    vendor/htc/ocn/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/htc/ocn/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/htc/ocn/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.gnss@1.0-service.rc \
-    vendor/htc/ocn/proprietary/vendor/etc/mixer_paths_qvr.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_qvr.xml \
     vendor/htc/ocn/proprietary/vendor/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
-    vendor/htc/ocn/proprietary/vendor/etc/qvr/qvrservice_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvrservice_6dof_config.xml \
-    vendor/htc/ocn/proprietary/vendor/etc/qvr/qvrservice_6dof_config_stereo.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvrservice_6dof_config_stereo.xml \
-    vendor/htc/ocn/proprietary/vendor/etc/qvr/qvrservice_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvrservice_config.txt \
     vendor/htc/ocn/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
     vendor/htc/ocn/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/htc/ocn/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
@@ -883,7 +835,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/htc/ocn/proprietary/vendor/lib/libois_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_lc898122.so \
     vendor/htc/ocn/proprietary/vendor/lib/libois_lc898123f40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_lc898123f40.so \
-    vendor/htc/ocn/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
     vendor/htc/ocn/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
     vendor/htc/ocn/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
     vendor/htc/ocn/proprietary/vendor/lib/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdi.so \
@@ -923,14 +874,12 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-diag.so \
     vendor/htc/ocn/proprietary/vendor/lib/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmextension.so \
     vendor/htc/ocn/proprietary/vendor/lib/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdsprpc.so \
-    vendor/htc/ocn/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
     vendor/htc/ocn/proprietary/vendor/lib/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor1.so \
     vendor/htc/ocn/proprietary/vendor/lib/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_reg.so \
     vendor/htc/ocn/proprietary/vendor/lib/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmemlog.so \
     vendor/htc/ocn/proprietary/vendor/lib/libsmwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmwrapper.so \
     vendor/htc/ocn/proprietary/vendor/lib/libtbaseLoader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtbaseLoader.so \
     vendor/htc/ocn/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
-    vendor/htc/ocn/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
     vendor/htc/ocn/proprietary/vendor/lib/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpphvx.so \
     vendor/htc/ocn/proprietary/vendor/lib/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpplibrary.so \
     vendor/htc/ocn/proprietary/vendor/lib/libvqzip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvqzip.so \
@@ -941,7 +890,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib/libwfdmodulehdcpsession.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmodulehdcpsession.so \
     vendor/htc/ocn/proprietary/vendor/lib/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwms.so \
     vendor/htc/ocn/proprietary/vendor/lib/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwqe.so \
-    vendor/htc/ocn/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
     vendor/htc/ocn/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
     vendor/htc/ocn/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/htc/ocn/proprietary/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so \
@@ -1182,6 +1130,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib64/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdhdcpcp.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwms.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwqe.so \
+    vendor/htc/ocn/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtadapter.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtwifi_ulp_adaptor.so \
