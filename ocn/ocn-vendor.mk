@@ -95,15 +95,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/etc/firmware/dxhdcp2.b06:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/dxhdcp2.b06 \
     vendor/htc/ocn/proprietary/etc/firmware/dxhdcp2.b07:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/dxhdcp2.b07 \
     vendor/htc/ocn/proprietary/etc/firmware/dxhdcp2.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/dxhdcp2.mdt \
-    vendor/htc/ocn/proprietary/etc/firmware/edata.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/edata.b00 \
-    vendor/htc/ocn/proprietary/etc/firmware/edata.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/edata.b01 \
-    vendor/htc/ocn/proprietary/etc/firmware/edata.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/edata.b02 \
-    vendor/htc/ocn/proprietary/etc/firmware/edata.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/edata.b03 \
-    vendor/htc/ocn/proprietary/etc/firmware/edata.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/edata.b04 \
-    vendor/htc/ocn/proprietary/etc/firmware/edata.b05:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/edata.b05 \
-    vendor/htc/ocn/proprietary/etc/firmware/edata.b06:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/edata.b06 \
-    vendor/htc/ocn/proprietary/etc/firmware/edata.b07:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/edata.b07 \
-    vendor/htc/ocn/proprietary/etc/firmware/edata.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/edata.mdt \
     vendor/htc/ocn/proprietary/etc/firmware/hdcp1.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/hdcp1.b00 \
     vendor/htc/ocn/proprietary/etc/firmware/hdcp1.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/hdcp1.b01 \
     vendor/htc/ocn/proprietary/etc/firmware/hdcp1.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/hdcp1.b02 \
@@ -278,7 +269,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
     vendor/htc/ocn/proprietary/vendor/bin/port-bridge:$(TARGET_COPY_OUT_VENDOR)/bin/port-bridge \
     vendor/htc/ocn/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
-    vendor/htc/ocn/proprietary/vendor/bin/qseecomd_static:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd_static \
+    vendor/htc/ocn/proprietary/bin/qseecomd_static:$(TARGET_COPY_OUT_SYSTEM)/bin/qseecomd_static \
     vendor/htc/ocn/proprietary/vendor/bin/qti:$(TARGET_COPY_OUT_VENDOR)/bin/qti \
     vendor/htc/ocn/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
     vendor/htc/ocn/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
