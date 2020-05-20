@@ -225,7 +225,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/htc/oce/proprietary/product/framework/qti-telephony-common.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/qti-telephony-common.jar \
     vendor/htc/oce/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
-    vendor/htc/oce/proprietary/lib/hw/sensors.msm8996.so:system/lib/hw/sensors.msm8996.so \
+    vendor/htc/oce/proprietary/lib/hw/sensors.msm8996.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensors.msm8996.so \
     vendor/htc/oce/proprietary/lib/libqvrservice.so:system/lib/libqvrservice.so \
     vendor/htc/oce/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:system/lib/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/htc/oce/proprietary/lib64/vendor.qti.hardware.tui_comm@1.0.so:system/lib64/vendor.qti.hardware.tui_comm@1.0.so \
@@ -252,15 +252,13 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/lib/libprojector.so:system/lib/libprojector.so \
     vendor/htc/oce/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
     vendor/htc/oce/proprietary/lib/librcc.so:system/lib/librcc.so \
-    vendor/htc/oce/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
-    vendor/htc/oce/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/htc/oce/proprietary/lib/libts_face_beautify_hal.so:system/lib/libts_face_beautify_hal.so \
     vendor/htc/oce/proprietary/lib/libts_face_beautify_jni.so:system/lib/libts_face_beautify_jni.so \
     vendor/htc/oce/proprietary/lib/libvendorconn.so:system/lib/libvendorconn.so \
     vendor/htc/oce/proprietary/lib/vendor.qti.hardware.camera.device@1.0.so:system/lib/vendor.qti.hardware.camera.device@1.0.so \
     vendor/htc/oce/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:system/lib/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/htc/oce/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
-    vendor/htc/oce/proprietary/lib64/hw/sensors.msm8996.so:system/lib64/hw/sensors.msm8996.so \
+    vendor/htc/oce/proprietary/lib64/hw/sensors.msm8996.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/sensors.msm8996.so \
     vendor/htc/oce/proprietary/lib64/libawb_calibration.so:system/lib64/libawb_calibration.so \
     vendor/htc/oce/proprietary/lib64/lib_fp_img_store.so:system/lib64/lib_fp_img_store.so \
     vendor/htc/oce/proprietary/lib64/libftm_lib_fpc.so:system/lib64/libftm_lib_fpc.so \
@@ -280,8 +278,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
     vendor/htc/oce/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
     vendor/htc/oce/proprietary/lib64/librcc.so:system/lib64/librcc.so \
-    vendor/htc/oce/proprietary/lib64/libsensor1.so:system/lib64/libsensor1.so \
-    vendor/htc/oce/proprietary/lib64/libsensor_reg.so:system/lib64/libsensor_reg.so \
     vendor/htc/oce/proprietary/lib64/libts_face_beautify_hal.so:system/lib64/libts_face_beautify_hal.so \
     vendor/htc/oce/proprietary/lib64/libts_face_beautify_jni.so:system/lib64/libts_face_beautify_jni.so \
     vendor/htc/oce/proprietary/lib64/libvendorconn.so:system/lib64/libvendorconn.so \
@@ -855,6 +851,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/lib/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdsprpc.so \
     vendor/htc/oce/proprietary/vendor/lib/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor1.so \
     vendor/htc/oce/proprietary/vendor/lib/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_reg.so \
+    vendor/htc/oce/proprietary/vendor/lib/hw/activity_recognition.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.msm8996.so \
+    vendor/htc/oce/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
+    vendor/htc/oce/proprietary/vendor/lib64/hw/activity_recognition.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.msm8996.so \
+    vendor/htc/oce/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/htc/oce/proprietary/vendor/lib/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmemlog.so \
     vendor/htc/oce/proprietary/vendor/lib/libsmwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmwrapper.so \
     vendor/htc/oce/proprietary/vendor/lib/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtime_genoff.so \
