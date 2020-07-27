@@ -1227,6 +1227,9 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     PowerOffAlarm \
     qcrilmsgtunnel \
+    HotwordEnrollmentOKGoogleWCD9335 \
+    HotwordEnrollmentTGoogleWCD9335 \
+    HotwordEnrollmentXGoogleWCD9335 \
     SmartcardService \
     ims \
     WfdService \
