@@ -1214,7 +1214,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc
 
 PRODUCT_PACKAGES += \
-    EasyAccessService \
     com.qualcomm.location \
     libantradio \
     libbtconfigstore \
