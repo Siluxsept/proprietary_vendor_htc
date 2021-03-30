@@ -233,7 +233,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/lib/libftm_lib_sensorhub.so:system/lib/libftm_lib_sensorhub.so \
     vendor/htc/oce/proprietary/lib/libhtc_humanprocess.so:system/lib/libhtc_humanprocess.so \
     vendor/htc/oce/proprietary/lib/libhtc_facebeauty.so:system/lib/libhtc_facebeauty.so \
-    vendor/htc/oce/proprietary/lib/libhtc_sensorhub.so:system/lib/libhtc_sensorhub.so \
     vendor/htc/oce/proprietary/lib/libmdsprpc.so:system/lib/libmdsprpc.so \
     vendor/htc/oce/proprietary/lib/libmorpho_edit_engine.so:system/lib/libmorpho_edit_engine.so \
     vendor/htc/oce/proprietary/lib/libmorpho_frame_overlay.so:system/lib/libmorpho_frame_overlay.so \
@@ -262,7 +261,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
     vendor/htc/oce/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/htc/oce/proprietary/lib64/libftm_lib_sensorhub.so:system/lib64/libftm_lib_sensorhub.so \
-    vendor/htc/oce/proprietary/lib64/libhtc_sensorhub.so:system/lib64/libhtc_sensorhub.so \
     vendor/htc/oce/proprietary/product/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimscamera_jni.so \
     vendor/htc/oce/proprietary/product/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimsmedia_jni.so \
     vendor/htc/oce/proprietary/lib64/libmdsprpc.so:system/lib64/libmdsprpc.so \
