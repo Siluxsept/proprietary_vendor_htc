@@ -1169,14 +1169,14 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/lib/libhtc_sensorhub.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhtc_sensorhub.so \
     vendor/htc/oce/proprietary/lib64/libhtc_sensorhub.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhtc_sensorhub.so \
     vendor/htc/oce/proprietary/lib/libsensor_reg.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensor_reg.so \
-    vendor/htc/oce/proprietary/lib64/libsensor_reg.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsensor_reg.so \
+    vendor/htc/oce/proprietary/lib64/libsensor_reg.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsensor_reg.so
 
 # Self contained data modules
 PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
     vendor/htc/oce/proprietary/vendor/etc/init/dataqti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataqti.rc \
     vendor/htc/oce/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
-    vendor/htc/oce/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
+    vendor/htc/oce/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc
 
 PRODUCT_PACKAGES += \
     libantradio \
